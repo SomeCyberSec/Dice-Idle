@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dice_Epic
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a574d098433c2b447b23c3c704ec36e0, type: 3}
+    - {fileID: 2800000, guid: 35a51f685cfaf85418e8eb7ce0460386, type: 3}
+    - {fileID: 2800000, guid: b7885c414f343df4ea4d0b7c48d424d6, type: 3}
+    - {fileID: 2800000, guid: 2ca13554b351a2249bee0747e6b109da, type: 3}
+    - {fileID: 2800000, guid: f0d50f10a3a45904bb67ee577115711a, type: 3}
+    - {fileID: 2800000, guid: 9d807a147835d1f40942a2372c3bf6ef, type: 3}
+    - {fileID: 2800000, guid: 86fa85cb397a98940ab95859e2284ef7, type: 3}
+    - {fileID: 2800000, guid: b95c608676bbd2f42884356ecef54559, type: 3}
+    - {fileID: 2800000, guid: 7995cd2360205dc4ca19bf8a72ee9949, type: 3}
+    - {fileID: 2800000, guid: d892205e08c445948bb6c3f97bb6035c, type: 3}
+    - {fileID: 2800000, guid: 77e10a89a021645439364931d6c388ff, type: 3}
+    - {fileID: 2800000, guid: 6b637c9bd11ba064e9e9c81363c3e5b6, type: 3}
+    - {fileID: 2800000, guid: 1bc89619c5596874582997d255e22a90, type: 3}
+    - {fileID: 2800000, guid: 3ace95db7983a1842a1ffbd793ca6b00, type: 3}
+    - {fileID: 2800000, guid: f961fd5f5cccd904d839a6fa13f8ae4c, type: 3}
+    - {fileID: 2800000, guid: 39c07257f784b4f44bd0fba22cc5840c, type: 3}
+    - {fileID: 2800000, guid: 8226a0c7e28ee294d8018d94414b9a1f, type: 3}
+    - {fileID: 2800000, guid: 74168c9ef6022b447aba7158ff287046, type: 3}
+    - {fileID: 2800000, guid: 17ebae8be793fee41b819fd2fff33ded, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f0d50f10a3a45904bb67ee577115711a, type: 3}
+  - {fileID: 21300000, guid: b7885c414f343df4ea4d0b7c48d424d6, type: 3}
+  - {fileID: 21300000, guid: 7995cd2360205dc4ca19bf8a72ee9949, type: 3}
+  - {fileID: 21300000, guid: 9d807a147835d1f40942a2372c3bf6ef, type: 3}
+  - {fileID: 21300000, guid: 2ca13554b351a2249bee0747e6b109da, type: 3}
+  - {fileID: 21300000, guid: b95c608676bbd2f42884356ecef54559, type: 3}
+  - {fileID: 21300000, guid: 39c07257f784b4f44bd0fba22cc5840c, type: 3}
+  - {fileID: 21300000, guid: 8226a0c7e28ee294d8018d94414b9a1f, type: 3}
+  - {fileID: 21300000, guid: 35a51f685cfaf85418e8eb7ce0460386, type: 3}
+  - {fileID: 21300000, guid: a574d098433c2b447b23c3c704ec36e0, type: 3}
+  - {fileID: 21300000, guid: 1bc89619c5596874582997d255e22a90, type: 3}
+  - {fileID: 21300000, guid: 77e10a89a021645439364931d6c388ff, type: 3}
+  - {fileID: 21300000, guid: 17ebae8be793fee41b819fd2fff33ded, type: 3}
+  - {fileID: 21300000, guid: 6b637c9bd11ba064e9e9c81363c3e5b6, type: 3}
+  - {fileID: 21300000, guid: 86fa85cb397a98940ab95859e2284ef7, type: 3}
+  - {fileID: 21300000, guid: 3ace95db7983a1842a1ffbd793ca6b00, type: 3}
+  - {fileID: 21300000, guid: d892205e08c445948bb6c3f97bb6035c, type: 3}
+  - {fileID: 21300000, guid: 74168c9ef6022b447aba7158ff287046, type: 3}
+  - {fileID: 21300000, guid: f961fd5f5cccd904d839a6fa13f8ae4c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dice_Epic5
+  - Dice_Epic3
+  - Dice_Epic9
+  - Dice_Epic6
+  - Dice_Epic4
+  - Dice_Epic8
+  - Dice_Epic16
+  - Dice_Epic17
+  - Dice_Epic2
+  - Dice_Epic1
+  - Dice_Epic13
+  - Dice_Epic11
+  - Dice_Epic19
+  - Dice_Epic12
+  - Dice_Epic7
+  - Dice_Epic14
+  - Dice_Epic10
+  - Dice_Epic18
+  - Dice_Epic15
+  m_RenderDataMap: {}
+  m_Tag: Dice_Epic
+  m_IsVariant: 0

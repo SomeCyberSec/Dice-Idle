@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dice_Rare
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 48c33d981862b6e47865619b73ab2213, type: 3}
+    - {fileID: 2800000, guid: ab3df51620e3dc4478cdab0904002dc1, type: 3}
+    - {fileID: 2800000, guid: 3354fafe86e286e4794822effa70879f, type: 3}
+    - {fileID: 2800000, guid: 4ae6e76c2cf2f9642bc1ab00e481e160, type: 3}
+    - {fileID: 2800000, guid: aed666345c3616b4e856189443e38605, type: 3}
+    - {fileID: 2800000, guid: 6087e6646d052a446b0491e9659f2885, type: 3}
+    - {fileID: 2800000, guid: 5cd2f516a8cc4e74190c327ec3e49149, type: 3}
+    - {fileID: 2800000, guid: f0c617c1f77c1ff40bc2cd72ee8fe8a1, type: 3}
+    - {fileID: 2800000, guid: 31fcad9faee119c4f92319fbd20b872c, type: 3}
+    - {fileID: 2800000, guid: bbf7ee52b2a8c15479de48c11c83a53b, type: 3}
+    - {fileID: 2800000, guid: 2398859736d6e6747b00bc97edf222c7, type: 3}
+    - {fileID: 2800000, guid: 7976606062cd84f4b9edc0abd35a26f5, type: 3}
+    - {fileID: 2800000, guid: b44bd8cb12f4c0e4a9115064f45fdc2d, type: 3}
+    - {fileID: 2800000, guid: c9223b4ab3c8cdc4a9822c2ebed88ff2, type: 3}
+    - {fileID: 2800000, guid: 9461f7507ec7fa04fbddd3849dd7472f, type: 3}
+    - {fileID: 2800000, guid: 4992965acd8ae9d40a152d6d138a597f, type: 3}
+    - {fileID: 2800000, guid: 52c7f3dfe067def40916e6be75a1927f, type: 3}
+    - {fileID: 2800000, guid: eb002b5f83c559748ad9d56a4ba343a5, type: 3}
+    - {fileID: 2800000, guid: e85a6bd3e67c78f43a97d6ab80190fa1, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9461f7507ec7fa04fbddd3849dd7472f, type: 3}
+  - {fileID: 21300000, guid: 7976606062cd84f4b9edc0abd35a26f5, type: 3}
+  - {fileID: 21300000, guid: f0c617c1f77c1ff40bc2cd72ee8fe8a1, type: 3}
+  - {fileID: 21300000, guid: bbf7ee52b2a8c15479de48c11c83a53b, type: 3}
+  - {fileID: 21300000, guid: e85a6bd3e67c78f43a97d6ab80190fa1, type: 3}
+  - {fileID: 21300000, guid: aed666345c3616b4e856189443e38605, type: 3}
+  - {fileID: 21300000, guid: 6087e6646d052a446b0491e9659f2885, type: 3}
+  - {fileID: 21300000, guid: 5cd2f516a8cc4e74190c327ec3e49149, type: 3}
+  - {fileID: 21300000, guid: ab3df51620e3dc4478cdab0904002dc1, type: 3}
+  - {fileID: 21300000, guid: 2398859736d6e6747b00bc97edf222c7, type: 3}
+  - {fileID: 21300000, guid: 48c33d981862b6e47865619b73ab2213, type: 3}
+  - {fileID: 21300000, guid: c9223b4ab3c8cdc4a9822c2ebed88ff2, type: 3}
+  - {fileID: 21300000, guid: 4992965acd8ae9d40a152d6d138a597f, type: 3}
+  - {fileID: 21300000, guid: b44bd8cb12f4c0e4a9115064f45fdc2d, type: 3}
+  - {fileID: 21300000, guid: 4ae6e76c2cf2f9642bc1ab00e481e160, type: 3}
+  - {fileID: 21300000, guid: 3354fafe86e286e4794822effa70879f, type: 3}
+  - {fileID: 21300000, guid: eb002b5f83c559748ad9d56a4ba343a5, type: 3}
+  - {fileID: 21300000, guid: 31fcad9faee119c4f92319fbd20b872c, type: 3}
+  - {fileID: 21300000, guid: 52c7f3dfe067def40916e6be75a1927f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dice_Rare15
+  - Dice_Rare12
+  - Dice_Rare8
+  - Dice_Rare10
+  - Dice_Rare19
+  - Dice_Rare5
+  - Dice_Rare6
+  - Dice_Rare7
+  - Dice_Rare2
+  - Dice_Rare11
+  - Dice_Rare1
+  - Dice_Rare14
+  - Dice_Rare16
+  - Dice_Rare13
+  - Dice_Rare4
+  - Dice_Rare3
+  - Dice_Rare18
+  - Dice_Rare9
+  - Dice_Rare17
+  m_RenderDataMap: {}
+  m_Tag: Dice_Rare
+  m_IsVariant: 0
