@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class DiceContainer : MonoBehaviour
 {
     public GameObject containerPrefab;
-    public float spacing = 1f;
 
     private DiceSelectMenu diceSelectMenu;
     private List<GameObject> containerList = new List<GameObject>();

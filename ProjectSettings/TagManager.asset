@@ -9,6 +9,11 @@ TagManager:
   - Dice_Rare
   - Dice_Epic
   - Dice_Legendary
+  - MainMenu
+  - LoginMenu
+  - RegisterMenu
+  - ForgotPasswordMenu
+  - ErrorPopup
   layers:
   - Default
   - TransparentFX

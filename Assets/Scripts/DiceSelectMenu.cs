@@ -32,7 +32,7 @@ public class DiceSelectMenu : MonoBehaviour
         if(currentMenu == null)
         {
             // Only create a new menu if one doesn't already exist
-            currentMenu = Instantiate(menuPrefab, new Vector3(320, 151, 0), Quaternion.identity, transform);
+            currentMenu = Instantiate(menuPrefab, new Vector3(240, 108, 0), Quaternion.identity, transform);
 
             // Fill menu with dice selections
             PopulateDiceSelectMenu();

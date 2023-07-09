@@ -3,16 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.IO;
+using Firebase.Extensions;
+using Firebase.Firestore;
 
 public class CurrencyHandler : MonoBehaviour
 {
     public static CurrencyHandler instance;
     public int score = 0;
-
+    
+    private FirestoreDataHandler firestoreScore;
     private TextMeshProUGUI scoreText;
 
     void Awake()
     {
+        // Grab instance reference to database
+        firestoreScore = FirestoreDataHandler.Instance;
+
+        // Set "instance" to singleton class, CurrencyHandler (this class)
         if (instance == null) {
             instance = this;
         } else {
@@ -23,27 +30,42 @@ public class CurrencyHandler : MonoBehaviour
     void Start()
     {
         scoreText = GetComponent<TextMeshProUGUI>();
-        LoadScore();
-        scoreText.SetText("Score: " + score);
+
+        // Load current JSON score
+        //LoadScore();
+
+        scoreText.SetText("Score: " + UserData.Instance.Score);
     }
 
-    public void scoreIncrease(int scoreAdd, int multiplier)
+    public async void scoreIncrease(int scoreAdd, int multiplier)
     {
-        score += scoreAdd * multiplier;
-        scoreText.SetText("Score: " + score);
-        SaveScore();
+        UserData.Instance.Score += scoreAdd * multiplier;
+        scoreText.SetText("Score: " + UserData.Instance.Score);
+
+        // Save score to JSON
+        //SaveScore();
+        
+        // Update database with new score
+        await firestoreScore.UpdateScore(UserData.Instance.Score);
     }
 
-    public void scoreDecrease(int scoreDecrease)
+    public async void scoreDecrease(int scoreDecrease)
     {
-        if (score >= scoreDecrease)
+        if (UserData.Instance.Score >= scoreDecrease)
         {
-            score -= scoreDecrease;
-            scoreText.SetText("Score: " + score);
-            SaveScore();
+            UserData.Instance.Score -= scoreDecrease;
+            scoreText.SetText("Score: " + UserData.Instance.Score);
+            //Save score to JSON
+            //SaveScore();
+
+            // Update database with new score
+            await firestoreScore.UpdateScore(UserData.Instance.Score);
         }
     }
 
+    // JSON implementation (interferes with Firestore implementation atm)
+    /*
+    // Encryption/Decryption function for JSON
     private string EncryptDecrypt(string str, int key)
     {
         char[] buffer = str.ToCharArray();
@@ -54,6 +76,7 @@ public class CurrencyHandler : MonoBehaviour
         return new string(buffer);
     }
 
+    // JSON score saving function
     private void SaveScore()
     {
         ScoreData data = new ScoreData { score = this.score };
@@ -64,6 +87,7 @@ public class CurrencyHandler : MonoBehaviour
         File.WriteAllText(path, json);
     }
 
+    // JSON score loading function
     private void LoadScore()
     {
         string path = Application.persistentDataPath + "/scoreData.json";
@@ -75,4 +99,5 @@ public class CurrencyHandler : MonoBehaviour
             this.score = data.score;
         }
     }
+    */
 }
