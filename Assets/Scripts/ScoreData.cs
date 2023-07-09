@@ -1,5 +1,8 @@
-[System.Serializable]
-public class ScoreData
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public struct ScoreData
 {
     public int score;
 }

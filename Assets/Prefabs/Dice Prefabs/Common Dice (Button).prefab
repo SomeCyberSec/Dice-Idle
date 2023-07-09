@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5dc0e69d099a7a409d0a85b02fbad52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1
   diceAtlas: {fileID: 4343727234628468602, guid: a4477c6275c8b0345a97c55844771af2, type: 2}
+  upgradeHandler: {fileID: 0}
 --- !u!114 &-3368124951147119503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,3 +163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   multiplier: 1
   timeBetweenRolls: 10
+  diceType: 0
